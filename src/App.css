@@ -1,3 +1,52 @@
+body {
+    background-color: #F0EDF6;
+    letter-spacing: 1px;
+}
 .container {
     text-align: center;
+    padding: 40px 100px;
+}
+.title {
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+.child {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    padding: 10px 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.check {
+    display: flex;
+}
+.btn {
+    width: 100px;
+    cursor: pointer;
+    background-color: #553A9D;
+    padding: 6px 12px;
+    border-radius: 3px;
+    color: #fff;
+}
+.btn.check-in {
+    background-color: #fff;
+    border: 1px solid #553A9D;
+    color: #553A9D;
+}
+.end {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 598px) {
+    .container {
+        padding: 40px 20px;
+    }
+    .child {
+        flex-direction: column;
+    }
 }
